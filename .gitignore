@@ -1,0 +1,35 @@
+#IDE files
+.vscode
+.idea
+.DS_Store
+
+#Python files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+
+#PyInstaller files  build, dist, ManRevX.spec
+build
+dist
+ManRevX.spec
+
+#Logs
+logs
+
+#Data
+data
+
+#Config files
+config
+
+#ManRevX.dmg
+ManRevX.dmg
+
+#ManRevX.app
+ManRevX.app
+
+#ManRevX.pkg
+ManRevX.pkg
