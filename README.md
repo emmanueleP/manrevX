@@ -1,6 +1,6 @@
 # manrevX
 
-![Logo ManRev]
+![Logo ManRev](src/assets/logo_manrev.png)
 
 L'idea di ManRevX nasce da un precedente progetto che comprendeva una suite di app (nome in code "Abe") da me creato lo scorso anno. Poiché il modulo dell'app che usavo di più era ManRev, ho deciso di esportarlo e creare un'apposita repo per quest'app.
 L'applicazione permette ad associazioni ed enti locali di **generare, archiviare e stampare mandati di pagamento e reversali di esazione** in formato Word, mantenendo un flusso identico all'originale: scelta del tipo documento, inserimento dati contabili, gestione firme digitalizzate e invio alla stampa.
