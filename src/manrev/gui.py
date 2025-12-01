@@ -30,7 +30,7 @@ class ManRevGUI(QMainWindow):
         
         if self.app:
             self.apply_theme()
-        # Imposta l'icona
+        # Imposta l'icona dell'app)
         self.setWindowIcon(QIcon(get_asset_path('logo_manrev.png')))
 
     def setup_menu(self):
@@ -51,10 +51,11 @@ class ManRevGUI(QMainWindow):
         exit_action.setShortcut('Ctrl+Q')
         file_menu.addAction(exit_action)
         
-        # Menu Impostazioni
+        # Menu Impostazioni / Preferenze (macOS: voce sotto il nome app)
         settings_menu = menubar.addMenu('Impostazioni')
-        settings_action = QAction('Configura...', self)
+        settings_action = QAction('Preferenze...', self)
         settings_action.triggered.connect(self.show_settings)
+        settings_action.setMenuRole(QAction.PreferencesRole)
         settings_menu.addAction(settings_action)
         
         # Menu Help

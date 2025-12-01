@@ -10,7 +10,7 @@ DMG_NAME="${APP_NAME}.dmg"
 VOLUME_NAME="${APP_NAME}"
 STAGING_DIR="dist/dmg-staging"
 ENTRY_POINT="main.py"
-ICON_PATH="src/assets/logo_manrev.png"
+ICONSET_DIR="src/assets/logo_manrev.png"
 PYINSTALLER_BIN="${PYINSTALLER:-pyinstaller}"
 
 usage() {
@@ -49,7 +49,7 @@ rm -rf "${DIST_DIR}" build "${APP_NAME}.spec"
 "${PYINSTALLER_BIN}" --noconfirm --clean \
   --name "${APP_NAME}" \
   --windowed \
-  --icon "${ICON_PATH}" \
+  --icon "${ICONSET_DIR}" \
   --osx-bundle-identifier "it.emmanuele.manrevx" \
   --add-data "src/assets:src/assets" \
   --paths "src" \

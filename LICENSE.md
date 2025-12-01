@@ -1,7 +1,7 @@
 ManRevX Proprietary License
 ===========================
 
-Copyright (c) 2025 Emmanuele Pani. Tutti i diritti riservati.
+Copyright (c) 2024-2025 Emmanuele Pani. Tutti i diritti riservati.
 
 1. Permesso d'uso
    È consentito utilizzare l'applicazione ManRevX esclusivamente per scopi interni

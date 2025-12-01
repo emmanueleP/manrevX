@@ -19,7 +19,7 @@ class AboutDialog(QDialog):
         layout.addWidget(title)
 
         # Versione
-        version = QLabel("Versione 1.0.5")
+        version = QLabel("Versione 1.0")
         version.setAlignment(Qt.AlignCenter)
         layout.addWidget(version)
 
@@ -34,7 +34,7 @@ class AboutDialog(QDialog):
         layout.addWidget(description)
 
         # Copyright
-        copyright = QLabel("© 2025 - Emmanuele Pani.")
+        copyright = QLabel("© 2024-2025 - Emmanuele Pani.")
         copyright.setAlignment(Qt.AlignCenter)
         layout.addWidget(copyright)
 

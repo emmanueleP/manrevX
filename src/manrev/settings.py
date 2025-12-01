@@ -24,11 +24,11 @@ class ManRevSettings:
             "default_president": "",
             "default_accountant": "",
             "sede_image": "",
-            "firme": {
-                "tesoriere_firma": "",
-                "presidente_firma": "",
-                "addetto_firma": ""
-            },
+    "firme": {
+        "tesoriere_firma": "",
+        "presidente_firma": "",
+        "addetto_firma": ""
+    },
             "last_mandato": 0,
             "last_reversale": 0,
             "year": datetime.now().year,
